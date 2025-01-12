@@ -112,8 +112,8 @@ body {
 /* Music */
 #toggleButton {
 	position: fixed;
-	/* bottom:30px;
-	right: 100px; */
+	/* bottom:30px; */
+	right: 0%;
 	height:30px;
 	width:40px;
 	border:none;
@@ -333,9 +333,11 @@ table tr td:last-child {
 	align-items: center;
     position: fixed;
     bottom: 30px;
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
     justify-items: end;
+	z-index:2;
+	margin:0% 40%;
 }
 .playerscore{
 	display:flex;
