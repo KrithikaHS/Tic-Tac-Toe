@@ -33,8 +33,9 @@ button.addEventListener("click", function() {
 });
 // Preloader
 function disablePreloader() {
-    document.getElementById('preloader').style.display = 'none';
-    document.getElementById('content').style.display = 'block';
+    document.getElementById('loadboth').style.display = 'none';
+    document.getElementById('content').style.display = 'grid';
+    document.getElementById('content').style.justify = 'center';
 }
 setTimeout(disablePreloader, 500); 
 // Tic tac toe 
