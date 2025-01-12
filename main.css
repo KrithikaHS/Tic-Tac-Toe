@@ -6,7 +6,7 @@ body {
 	font-family:'Courier New', Courier, monospace;
 	color:rgb(65, 47, 1);
 	user-select: none;
-	/* display:flex;  */
+	display:grid;
 }
 
 /* Title */
