@@ -327,6 +327,7 @@ table tr td:last-child {
 	display: flex;
 	position: relative;
 	justify-content: space-around;
+	z-index:0;
 }
 .playagainda{
 	display: grid;
